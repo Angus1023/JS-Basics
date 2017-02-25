@@ -4,13 +4,14 @@ var name = 'Tyler';
 //Create a function called isTyler that accepts name as it's only parameter.
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
 
-   function isTyler(name) {
-  var user = "Tyler";
-  if (user === "Tyler"){
+  function isTyler(name) {
+  name = "Tyler";
+  if (name === "Tyler"){
   return true;
   } else {
     return false;
-  }//Code Here
+  }
+ }//Code Here
 
 //////////////////PROBLEM 2////////////////////
 
@@ -84,7 +85,7 @@ var name = 'Tyler';
 //Create a function called outerFn which returns an anonymous function which returns your name.
 
   function outerFn(){
-    
+
 
 
   }//Code Here
